@@ -1,0 +1,27 @@
+// Este es un ejemplo de un documento
+{
+  "name": "Juan Pérez",
+  "email": "juan@example.com",
+  "passwordHash": "hash_bcrypt",
+  "createdAt": "2026-01-28",
+
+  "notes": [
+    {
+      "id": "n1",
+      "title": "Idea para el proyecto",
+      "content": "Hacer app de notas y pendientes",
+      "createdAt": "2026-01-28",
+      "updatedAt": "2026-01-28"
+    }
+  ],
+
+  "todos": [
+    {
+      "id": "t1",
+      "text": "Grabar video del avance",
+      "done": false,
+      "createdAt": "2026-01-28",
+      "updatedAt": "2026-01-28"
+    }
+  ]
+}
